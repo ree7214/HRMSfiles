@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RegressionSuite" duration-ms="30622" started-at="2020-01-19T13:01:54 EST" finished-at="2020-01-19T13:02:25 EST">
+    <groups>
+      <group name="regression">
+        <method signature="LeaveListPageTest.leaveLabelValidation()[pri:0, instance:com.testcasses.LeaveListPageTest@1efed156]" name="leaveLabelValidation" class="com.testcasses.LeaveListPageTest"/>
+        <method signature="LoginPageTest.negativeLogin()[pri:0, instance:com.testcasses.LoginPageTest@6737fd8f]" name="negativeLogin" class="com.testcasses.LoginPageTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="RegressionTest" duration-ms="30622" started-at="2020-01-19T13:01:54 EST" finished-at="2020-01-19T13:02:25 EST">
+      <class name="com.testcasses.LeaveListPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcasses.LeaveListPageTest@1efed156]" name="setUp" is-config="true" duration-ms="11386" started-at="2020-01-19T13:01:54 EST" finished-at="2020-01-19T13:02:05 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="leaveLabelValidation()[pri:0, instance:com.testcasses.LeaveListPageTest@1efed156]" name="leaveLabelValidation" duration-ms="6858" started-at="2020-01-19T13:02:05 EST" finished-at="2020-01-19T13:02:12 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leaveLabelValidation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcasses.LeaveListPageTest@1efed156]" name="tearDown" is-config="true" duration-ms="685" started-at="2020-01-19T13:02:12 EST" finished-at="2020-01-19T13:02:13 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcasses.LeaveListPageTest -->
+      <class name="com.testcasses.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcasses.LoginPageTest@6737fd8f]" name="setUp" is-config="true" duration-ms="10802" started-at="2020-01-19T13:02:13 EST" finished-at="2020-01-19T13:02:24 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="negativeLogin()[pri:0, instance:com.testcasses.LoginPageTest@6737fd8f]" name="negativeLogin" duration-ms="167" started-at="2020-01-19T13:02:24 EST" finished-at="2020-01-19T13:02:24 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcasses.LoginPageTest@6737fd8f]" name="tearDown" is-config="true" duration-ms="700" started-at="2020-01-19T13:02:24 EST" finished-at="2020-01-19T13:02:25 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcasses.LoginPageTest -->
+    </test> <!-- RegressionTest -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>
